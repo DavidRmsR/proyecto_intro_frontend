@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>PROPIEDADES</title>
 
     <style>
         section {width: 100%;
                 display: flex;
-                justify-content: center;}
+                justify-content: center;}/*manda la tarjeta al centro de la pantalla*/
 
         .card {width: 300px; height: 300px; background: peru;
-                border-radius: 20px;
-                overflow: hidden;}
-        .card img {width: 100%;}
-        .card p {text-align: center;}
-        .card p:nth-child(3) {color: aquamarine;}
+                border-radius: 20px;/*redondea las esquinas*/
+                overflow: hidden;}/*lo que se salga de la tarjeta, como esquenas de la imagen, las esconde*/
+        .card img {width: 100%;}/*modifica el tamano original de la imagen para que se ajuste al tamano de nuentra carta*/
+        .card p {text-align: center;}/*centra en la tarjeta el texto de<p>*/
+        .card p:nth-child(3) {color: aquamarine;}/*aplica estilo al tercer hijo dentro de card, sin importar se es <p> o no*/
 
     </style>
 

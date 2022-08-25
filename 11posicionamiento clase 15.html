@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>posicionamiento</title>
 
     <style>
         .container {width: 200px; height: 200px; background: papayawhip;
                     position: relative;
-                    top: 20px;}
+                    top: 20px;}/*agrega esa medida dentro del contenedor y la caja*/
 
         .item {width: 20px; height: 20px; background: blue;
-            position: absolute;
-                right: 0;}
+            position: absolute;/*indica que ese elemnto solo se movera dentro de la caja*/
+                right: 0;}/*manda al elemento hasta el lado derecho (dentro del contenedor gracias a la intruccion anterior no lo manda hasta el fonto de la pantalla)*/
 
         nav {width: 100%; height: 60px; background: cadetblue;
-            position: fixed;
-            top: 0;}
+            position: fixed;/*deja fija esa caja en la pantalla aunque se haga scroll*/ 
+            top: 0;}/*manda la caja hasta arriba*/
 
-        ul p {position: sticky;
-                top: 0;}
+        ul p {position: sticky;/*todos los <p> los deja pegados en la pantalla sin importar el scroll*/
+                top: 0;} /*lo deja hasta arriba de la pantalla*/
 
     </style>
 
